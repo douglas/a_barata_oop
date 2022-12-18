@@ -19,7 +19,6 @@ class BarataTest < Minitest::Test
   end
 
   def test_verse_rogerio
-    skip
     expected = <<~TEXT
       Diz aí Rogério o que cê vai fazer
       Eu vou comprar um pau pra me defender
@@ -30,7 +29,6 @@ class BarataTest < Minitest::Test
   end
 
   def test_verse_fernando
-    skip
     expected = <<~TEXT
       Diz aí Fernando o que cê vai fazer
       Eu vou comprar uma espora pra me defender
@@ -41,7 +39,6 @@ class BarataTest < Minitest::Test
   end
 
   def test_verse_luizinho
-    skip
     expected = <<~TEXT
       Diz aí Luizinho o que cê vai fazer
       Eu vou comprar um inseticida pra me defender
@@ -52,7 +49,6 @@ class BarataTest < Minitest::Test
   end
 
   def test_verse_serginho
-    skip
     expected = <<~TEXT
       Diz aí Serginho o que cê vai fazer
       Eu vou comprar uma furadeira pra me defender
@@ -63,7 +59,6 @@ class BarataTest < Minitest::Test
   end
 
   def test_refrao
-    skip
     expected = <<~TEXT
       Toda vez que eu chego em casa
       A barata da vizinha está na minha cama
@@ -74,7 +69,6 @@ class BarataTest < Minitest::Test
   end
 
   def test_ultimo_verso
-    skip
     expected = <<~TEXT
       Diz aí Alexandre o que cê vai fazer
       Eu vou comprar uma bombinha pra me defender
@@ -85,7 +79,6 @@ class BarataTest < Minitest::Test
   end
 
   def test_letra
-    skip
     expected = <<~TEXT
       Toda vez que eu chego em casa
       A barata da vizinha está na minha cama
